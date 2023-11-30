@@ -31,3 +31,7 @@ for module in settings.MODULES:
     urlpatterns += [
         path('{}/'.format(module), include('{}.urls'.format(module)))
     ]
+<<<<<<< HEAD
+=======
+..
+>>>>>>> 1da5c7f (añade otro . en urls.py)
